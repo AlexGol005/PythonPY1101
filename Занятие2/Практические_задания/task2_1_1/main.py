@@ -10,6 +10,9 @@ if __name__ == "__main__":
     my_first_gen = first_gen(5)
     print(next(my_first_gen))
 
+
+
+
     try:
         next(my_first_gen)
     except StopIteration:
