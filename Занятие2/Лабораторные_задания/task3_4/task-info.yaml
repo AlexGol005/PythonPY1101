@@ -1,5 +1,13 @@
 type: output
 files:
+- name: __init__.py
+  visible: false
+  learner_created: false
+- name: tests/output.txt
+  visible: false
+  text: |
+    HELLO, WORLD!!!
+  learner_created: false
 - name: main.py
   visible: true
   placeholders:
@@ -31,14 +39,6 @@ files:
 
     if __name__ == "__main__":
         print(get_text())
-  learner_created: false
-- name: __init__.py
-  visible: false
-  learner_created: false
-- name: tests/output.txt
-  visible: false
-  text: |
-    HELLO, WORLD!!!
   learner_created: false
 status: Solved
 feedback:
