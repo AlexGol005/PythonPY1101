@@ -16,5 +16,8 @@ files:
 - name: 1.txt
   visible: true
   learner_created: true
+- name: 2.txt
+  visible: true
+  learner_created: true
 status: Unchecked
 record: -1

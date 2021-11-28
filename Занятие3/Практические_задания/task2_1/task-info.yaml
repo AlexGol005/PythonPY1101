@@ -46,8 +46,5 @@ files:
     Объект из JSON строки: {'1': 1, '2': 5, 'str': [122, 291, 123], 'tuple': [1, 2, 3], 'd': {'1': 5}}
     False
   learner_created: false
-status: Solved
-feedback:
-  message: Congratulations!
-  time: Wed, 24 Nov 2021 15:41:22 UTC
+status: Unchecked
 record: -1

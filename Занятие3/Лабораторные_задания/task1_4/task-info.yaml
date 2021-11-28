@@ -3,7 +3,7 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 228
+  - offset: 70
     length: 57
     placeholder_text: '...  # TODO перезаписать содержимое одного файла в другой'
     initial_state:
@@ -11,7 +11,7 @@ files:
       offset: 70
     initialized_from_dependency: false
     selected: false
-    status: Solved
+    status: Unchecked
     encrypted_possible_answer: |-
       with open(INPUT_FILE, "r") as input_file:
               with open(OUTPUT_FILE, "w") as output_file:
@@ -63,8 +63,5 @@ files:
     TURQUOISE
     CYAN
   learner_created: false
-status: Solved
-feedback:
-  message: Congratulations!
-  time: Wed, 24 Nov 2021 17:11:14 UTC
+status: Unchecked
 record: -1

@@ -6,7 +6,11 @@ def task():
     with open(filename) as f:
         json_data = json.load(f)
 
-    return ...  # TODO отсортировать список словарей
+    return sorted(json_data, key=lambda i:  i['length'])
+
+
+
+    # TODO отсортировать список словарей
 
 
 if __name__ == "__main__":

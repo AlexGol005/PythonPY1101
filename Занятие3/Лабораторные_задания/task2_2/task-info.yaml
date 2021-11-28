@@ -3,19 +3,19 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 249
-    length: 52
+  - offset: 79
+    length: 51
     placeholder_text: '...  # TODO считать содержимое json файл input.json'
     initial_state:
       length: 51
       offset: 79
     initialized_from_dependency: false
-    selected: true
-    status: Solved
+    selected: false
+    status: Unchecked
     encrypted_possible_answer: |-
       with open(input_filename) as f:
               json_data = json.load(f)
-  - offset: 307
+  - offset: 136
     length: 67
     placeholder_text: '...  # TODO записать содержимое в json файл output.json с отступами'
     initial_state:
@@ -23,7 +23,7 @@ files:
       offset: 136
     initialized_from_dependency: false
     selected: false
-    status: Solved
+    status: Unchecked
     encrypted_possible_answer: |-
       with open(output_filename, "w") as f:
               json.dump(json_data, f, indent=4)
@@ -199,8 +199,5 @@ files:
         }
     ]
   learner_created: false
-status: Solved
-feedback:
-  message: Congratulations!
-  time: Wed, 24 Nov 2021 18:01:46 UTC
+status: Unchecked
 record: -1
