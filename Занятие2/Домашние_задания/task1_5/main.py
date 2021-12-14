@@ -8,5 +8,5 @@ def gen_password(n=8):
 
 if __name__ == "__main__":
     a = gen_password(10)
-    for i in range(10):
-        print(''.join(list(next(a))))
+    for i in range(5):
+        print(''.join(list(next(a))))/
