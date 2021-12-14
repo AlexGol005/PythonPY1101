@@ -1,5 +1,8 @@
 type: theory
 files:
+- name: __init__.py
+  visible: false
+  learner_created: false
 - name: main.py
   visible: true
   text: |
@@ -10,9 +13,6 @@ files:
         print(ascii_lowercase)
         print(ascii_uppercase)
         print(digits)
-  learner_created: false
-- name: __init__.py
-  visible: false
   learner_created: false
 status: Solved
 record: -1

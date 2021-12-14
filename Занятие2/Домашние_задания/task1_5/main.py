@@ -1,11 +1,12 @@
+import itertools
 from string import ascii_lowercase, ascii_uppercase, digits
 import random
-def gen_password(k):
-    population = [x for x in ascii_lowercase + ascii_uppercase + digits]
-    return random.sample(population, k)
+def gen_password(n=8):
+    while True:
+        population = (ascii_lowercase + ascii_uppercase + digits)
+        yield ''.join(random.sample(population, n))
 
 if __name__ == "__main__":
-    print(ascii_lowercase)
-    print(ascii_uppercase)
-    print(digits)
-    print(''.join(gen_password(8)))
+    a = gen_password(10)
+    for i in range(10):
+        print(''.join(list(next(a))))
