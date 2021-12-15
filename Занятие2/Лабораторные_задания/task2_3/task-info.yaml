@@ -11,7 +11,7 @@ files:
       offset: 28
     initialized_from_dependency: false
     selected: true
-    status: Failed
+    status: Solved
     encrypted_possible_answer: |-
       n = 0
           while True:
@@ -40,25 +40,8 @@ files:
     1000
     10000
   learner_created: false
-status: Failed
+status: Solved
 feedback:
-  message: Incorrect
-  time: Sat, 20 Nov 2021 09:27:14 UTC
-  expected: |
-    1
-    10
-    100
-    1000
-    10000
-  actual: |
-    1
-    5
-    25
-    125
-    625
-    3125
-    15625
-    78125
-    390625
-    1953125
+  message: Congratulations!
+  time: Sun, 12 Dec 2021 13:01:27 UTC
 record: -1

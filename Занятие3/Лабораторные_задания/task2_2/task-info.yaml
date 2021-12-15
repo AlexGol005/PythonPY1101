@@ -11,7 +11,7 @@ files:
       offset: 79
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       with open(input_filename) as f:
               json_data = json.load(f)
@@ -23,7 +23,7 @@ files:
       offset: 136
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       with open(output_filename, "w") as f:
               json.dump(json_data, f, indent=4)
@@ -199,5 +199,8 @@ files:
         }
     ]
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Wed, 15 Dec 2021 07:38:08 UTC
 record: -1
